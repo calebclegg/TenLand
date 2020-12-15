@@ -16,6 +16,7 @@
 		1C78F7FB2588466100B36B3A /* TENLANDPMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C78F7FA2588466100B36B3A /* TENLANDPMTests.swift */; };
 		1C78F8062588466100B36B3A /* TENLANDPMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C78F8052588466100B36B3A /* TENLANDPMUITests.swift */; };
 		1C78F818258846CE00B36B3A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C78F817258846CE00B36B3A /* RegisterViewController.swift */; };
+		1C78F81D258848BF00B36B3A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C78F81C258848BF00B36B3A /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		1C78F8052588466100B36B3A /* TENLANDPMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TENLANDPMUITests.swift; sourceTree = "<group>"; };
 		1C78F8072588466100B36B3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C78F817258846CE00B36B3A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		1C78F81C258848BF00B36B3A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				1C78F817258846CE00B36B3A /* RegisterViewController.swift */,
+				1C78F81C258848BF00B36B3A /* LoginViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				1C78F7E82588465F00B36B3A /* ViewController.swift in Sources */,
 				1C78F7E42588465F00B36B3A /* AppDelegate.swift in Sources */,
 				1C78F7E62588465F00B36B3A /* SceneDelegate.swift in Sources */,
+				1C78F81D258848BF00B36B3A /* LoginViewController.swift in Sources */,
 				1C78F818258846CE00B36B3A /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
