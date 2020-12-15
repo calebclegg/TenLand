@@ -20,6 +20,7 @@
 		1C78F8252588495500B36B3A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C78F8242588495500B36B3A /* ProfileViewController.swift */; };
 		1C78F8C1258859A000B36B3A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C78F8C0258859A000B36B3A /* GoogleService-Info.plist */; };
 		1C78F90225885D0E00B36B3A /* DashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C78F90125885D0E00B36B3A /* DashViewController.swift */; };
+		1C78F90725885D5F00B36B3A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C78F90625885D5F00B36B3A /* HomeViewController.swift */; };
 		23C7777E19C5FFAEEDA5CB58 /* Pods_TENLANDPM_TENLANDPMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59D5E643F0CB604C453DCF5 /* Pods_TENLANDPM_TENLANDPMUITests.framework */; };
 		5E423CE745DC5CAD6FBC34AA /* Pods_TENLANDPMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42C5A8951B22783976DCC89 /* Pods_TENLANDPMTests.framework */; };
 		5F5AC639FDD39AE34A15B104 /* Pods_TENLANDPM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C45F04A9905D1C9D248B5822 /* Pods_TENLANDPM.framework */; };
@@ -62,6 +63,7 @@
 		1C78F8242588495500B36B3A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		1C78F8C0258859A000B36B3A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1C78F90125885D0E00B36B3A /* DashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashViewController.swift; sourceTree = "<group>"; };
+		1C78F90625885D5F00B36B3A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		20EB0CD07A5A876D6C135B45 /* Pods-TENLANDPM-TENLANDPMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TENLANDPM-TENLANDPMUITests.debug.xcconfig"; path = "Target Support Files/Pods-TENLANDPM-TENLANDPMUITests/Pods-TENLANDPM-TENLANDPMUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		286FF29BA1EEA8193A6EE596 /* Pods-TENLANDPM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TENLANDPM.release.xcconfig"; path = "Target Support Files/Pods-TENLANDPM/Pods-TENLANDPM.release.xcconfig"; sourceTree = "<group>"; };
 		301CD42E427E81C6088A3FD1 /* Pods-TENLANDPM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TENLANDPM.debug.xcconfig"; path = "Target Support Files/Pods-TENLANDPM/Pods-TENLANDPM.debug.xcconfig"; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 				1C78F81C258848BF00B36B3A /* LoginViewController.swift */,
 				1C78F8242588495500B36B3A /* ProfileViewController.swift */,
 				1C78F90125885D0E00B36B3A /* DashViewController.swift */,
+				1C78F90625885D5F00B36B3A /* HomeViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -433,6 +436,7 @@
 				1C78F8252588495500B36B3A /* ProfileViewController.swift in Sources */,
 				1C78F90225885D0E00B36B3A /* DashViewController.swift in Sources */,
 				1C78F7E82588465F00B36B3A /* ViewController.swift in Sources */,
+				1C78F90725885D5F00B36B3A /* HomeViewController.swift in Sources */,
 				1C78F7E42588465F00B36B3A /* AppDelegate.swift in Sources */,
 				1C78F7E62588465F00B36B3A /* SceneDelegate.swift in Sources */,
 				1C78F81D258848BF00B36B3A /* LoginViewController.swift in Sources */,
