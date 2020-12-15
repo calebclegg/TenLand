@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C78F7E42588465F00B36B3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C78F7E32588465F00B36B3A /* AppDelegate.swift */; };
+		1C78F7E62588465F00B36B3A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C78F7E52588465F00B36B3A /* SceneDelegate.swift */; };
+		1C78F7E82588465F00B36B3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C78F7E72588465F00B36B3A /* ViewController.swift */; };
+		1C78F7EB2588465F00B36B3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C78F7E92588465F00B36B3A /* Main.storyboard */; };
+		1C78F7ED2588466000B36B3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C78F7EC2588466000B36B3A /* Assets.xcassets */; };
+		1C78F7F02588466000B36B3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C78F7EE2588466000B36B3A /* LaunchScreen.storyboard */; };
+		1C78F7FB2588466100B36B3A /* TENLANDPMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C78F7FA2588466100B36B3A /* TENLANDPMTests.swift */; };
+		1C78F8062588466100B36B3A /* TENLANDPMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C78F8052588466100B36B3A /* TENLANDPMUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C78F7F72588466100B36B3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C78F7D82588465F00B36B3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C78F7DF2588465F00B36B3A;
+			remoteInfo = TENLANDPM;
+		};
+		1C78F8022588466100B36B3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C78F7D82588465F00B36B3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C78F7DF2588465F00B36B3A;
+			remoteInfo = TENLANDPM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C78F7E02588465F00B36B3A /* TENLANDPM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TENLANDPM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C78F7E32588465F00B36B3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C78F7E52588465F00B36B3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1C78F7E72588465F00B36B3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1C78F7EA2588465F00B36B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C78F7EC2588466000B36B3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C78F7EF2588466000B36B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C78F7F12588466000B36B3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C78F7F62588466100B36B3A /* TENLANDPMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TENLANDPMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C78F7FA2588466100B36B3A /* TENLANDPMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TENLANDPMTests.swift; sourceTree = "<group>"; };
+		1C78F7FC2588466100B36B3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C78F8012588466100B36B3A /* TENLANDPMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TENLANDPMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C78F8052588466100B36B3A /* TENLANDPMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TENLANDPMUITests.swift; sourceTree = "<group>"; };
+		1C78F8072588466100B36B3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C78F7DD2588465F00B36B3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C78F7F32588466100B36B3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C78F7FE2588466100B36B3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C78F7D72588465F00B36B3A = {
+			isa = PBXGroup;
+			children = (
+				1C78F7E22588465F00B36B3A /* TENLANDPM */,
+				1C78F7F92588466100B36B3A /* TENLANDPMTests */,
+				1C78F8042588466100B36B3A /* TENLANDPMUITests */,
+				1C78F7E12588465F00B36B3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C78F7E12588465F00B36B3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C78F7E02588465F00B36B3A /* TENLANDPM.app */,
+				1C78F7F62588466100B36B3A /* TENLANDPMTests.xctest */,
+				1C78F8012588466100B36B3A /* TENLANDPMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C78F7E22588465F00B36B3A /* TENLANDPM */ = {
+			isa = PBXGroup;
+			children = (
+				1C78F7E32588465F00B36B3A /* AppDelegate.swift */,
+				1C78F7E52588465F00B36B3A /* SceneDelegate.swift */,
+				1C78F7E72588465F00B36B3A /* ViewController.swift */,
+				1C78F7E92588465F00B36B3A /* Main.storyboard */,
+				1C78F7EC2588466000B36B3A /* Assets.xcassets */,
+				1C78F7EE2588466000B36B3A /* LaunchScreen.storyboard */,
+				1C78F7F12588466000B36B3A /* Info.plist */,
+			);
+			path = TENLANDPM;
+			sourceTree = "<group>";
+		};
+		1C78F7F92588466100B36B3A /* TENLANDPMTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C78F7FA2588466100B36B3A /* TENLANDPMTests.swift */,
+				1C78F7FC2588466100B36B3A /* Info.plist */,
+			);
+			path = TENLANDPMTests;
+			sourceTree = "<group>";
+		};
+		1C78F8042588466100B36B3A /* TENLANDPMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1C78F8052588466100B36B3A /* TENLANDPMUITests.swift */,
+				1C78F8072588466100B36B3A /* Info.plist */,
+			);
+			path = TENLANDPMUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C78F7DF2588465F00B36B3A /* TENLANDPM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C78F80A2588466100B36B3A /* Build configuration list for PBXNativeTarget "TENLANDPM" */;
+			buildPhases = (
+				1C78F7DC2588465F00B36B3A /* Sources */,
+				1C78F7DD2588465F00B36B3A /* Frameworks */,
+				1C78F7DE2588465F00B36B3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TENLANDPM;
+			productName = TENLANDPM;
+			productReference = 1C78F7E02588465F00B36B3A /* TENLANDPM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C78F7F52588466100B36B3A /* TENLANDPMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C78F80D2588466100B36B3A /* Build configuration list for PBXNativeTarget "TENLANDPMTests" */;
+			buildPhases = (
+				1C78F7F22588466100B36B3A /* Sources */,
+				1C78F7F32588466100B36B3A /* Frameworks */,
+				1C78F7F42588466100B36B3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C78F7F82588466100B36B3A /* PBXTargetDependency */,
+			);
+			name = TENLANDPMTests;
+			productName = TENLANDPMTests;
+			productReference = 1C78F7F62588466100B36B3A /* TENLANDPMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1C78F8002588466100B36B3A /* TENLANDPMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C78F8102588466100B36B3A /* Build configuration list for PBXNativeTarget "TENLANDPMUITests" */;
+			buildPhases = (
+				1C78F7FD2588466100B36B3A /* Sources */,
+				1C78F7FE2588466100B36B3A /* Frameworks */,
+				1C78F7FF2588466100B36B3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C78F8032588466100B36B3A /* PBXTargetDependency */,
+			);
+			name = TENLANDPMUITests;
+			productName = TENLANDPMUITests;
+			productReference = 1C78F8012588466100B36B3A /* TENLANDPMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C78F7D82588465F00B36B3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					1C78F7DF2588465F00B36B3A = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					1C78F7F52588466100B36B3A = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 1C78F7DF2588465F00B36B3A;
+					};
+					1C78F8002588466100B36B3A = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 1C78F7DF2588465F00B36B3A;
+					};
+				};
+			};
+			buildConfigurationList = 1C78F7DB2588465F00B36B3A /* Build configuration list for PBXProject "TENLANDPM" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C78F7D72588465F00B36B3A;
+			productRefGroup = 1C78F7E12588465F00B36B3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C78F7DF2588465F00B36B3A /* TENLANDPM */,
+				1C78F7F52588466100B36B3A /* TENLANDPMTests */,
+				1C78F8002588466100B36B3A /* TENLANDPMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C78F7DE2588465F00B36B3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C78F7F02588466000B36B3A /* LaunchScreen.storyboard in Resources */,
+				1C78F7ED2588466000B36B3A /* Assets.xcassets in Resources */,
+				1C78F7EB2588465F00B36B3A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C78F7F42588466100B36B3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C78F7FF2588466100B36B3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C78F7DC2588465F00B36B3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C78F7E82588465F00B36B3A /* ViewController.swift in Sources */,
+				1C78F7E42588465F00B36B3A /* AppDelegate.swift in Sources */,
+				1C78F7E62588465F00B36B3A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C78F7F22588466100B36B3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C78F7FB2588466100B36B3A /* TENLANDPMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C78F7FD2588466100B36B3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C78F8062588466100B36B3A /* TENLANDPMUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C78F7F82588466100B36B3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C78F7DF2588465F00B36B3A /* TENLANDPM */;
+			targetProxy = 1C78F7F72588466100B36B3A /* PBXContainerItemProxy */;
+		};
+		1C78F8032588466100B36B3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C78F7DF2588465F00B36B3A /* TENLANDPM */;
+			targetProxy = 1C78F8022588466100B36B3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C78F7E92588465F00B36B3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C78F7EA2588465F00B36B3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C78F7EE2588466000B36B3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C78F7EF2588466000B36B3A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C78F8082588466100B36B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C78F8092588466100B36B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C78F80B2588466100B36B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TENLANDPM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Test3.TENLANDPM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C78F80C2588466100B36B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TENLANDPM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Test3.TENLANDPM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1C78F80E2588466100B36B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TENLANDPMTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Test3.TENLANDPMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TENLANDPM.app/TENLANDPM";
+			};
+			name = Debug;
+		};
+		1C78F80F2588466100B36B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TENLANDPMTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Test3.TENLANDPMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TENLANDPM.app/TENLANDPM";
+			};
+			name = Release;
+		};
+		1C78F8112588466100B36B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TENLANDPMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Test3.TENLANDPMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TENLANDPM;
+			};
+			name = Debug;
+		};
+		1C78F8122588466100B36B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TENLANDPMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Test3.TENLANDPMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TENLANDPM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C78F7DB2588465F00B36B3A /* Build configuration list for PBXProject "TENLANDPM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C78F8082588466100B36B3A /* Debug */,
+				1C78F8092588466100B36B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C78F80A2588466100B36B3A /* Build configuration list for PBXNativeTarget "TENLANDPM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C78F80B2588466100B36B3A /* Debug */,
+				1C78F80C2588466100B36B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C78F80D2588466100B36B3A /* Build configuration list for PBXNativeTarget "TENLANDPMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C78F80E2588466100B36B3A /* Debug */,
+				1C78F80F2588466100B36B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C78F8102588466100B36B3A /* Build configuration list for PBXNativeTarget "TENLANDPMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C78F8112588466100B36B3A /* Debug */,
+				1C78F8122588466100B36B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C78F7D82588465F00B36B3A /* Project object */;
+}
