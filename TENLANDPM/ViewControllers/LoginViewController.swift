@@ -25,5 +25,17 @@ class LoginViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    @IBAction func naaTapped(_ sender: Any) {
+        
+        let registerViewController = storyboard?.instantiateViewController(identifier: Constants.Storyboard.registerViewController) as? RegisterViewController
+         
+         view.window?.rootViewController = registerViewController
+         view.window?.makeKeyAndVisible()
+        
+        
+    }
+    
+    
 
 }
