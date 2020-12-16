@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Kra-eD-UGG">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Kra-eD-UGG">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -254,13 +254,28 @@
                     <view key="view" contentMode="scaleToFill" id="GPo-4T-965">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="header profile" translatesAutoresizingMaskIntoConstraints="NO" id="jTk-M7-UyV">
+                                <rect key="frame" x="20" y="44" width="374" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="MKe-eq-o6O"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="wPC-es-dbh"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="wPC-es-dbh" firstAttribute="trailing" secondItem="jTk-M7-UyV" secondAttribute="trailing" constant="20" id="ZTF-at-Mfk"/>
+                            <constraint firstItem="jTk-M7-UyV" firstAttribute="leading" secondItem="wPC-es-dbh" secondAttribute="leading" constant="20" id="cRs-XW-NbK"/>
+                            <constraint firstItem="jTk-M7-UyV" firstAttribute="top" secondItem="wPC-es-dbh" secondAttribute="top" id="lni-A2-MjD"/>
+                            <constraint firstItem="jTk-M7-UyV" firstAttribute="top" secondItem="wPC-es-dbh" secondAttribute="top" id="x6P-6j-3Dg"/>
+                            <constraint firstItem="jTk-M7-UyV" firstAttribute="leading" secondItem="wPC-es-dbh" secondAttribute="leading" constant="20" id="xrI-5E-hre"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wOl-pe-9yd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3848" y="67"/>
+            <point key="canvasLocation" x="3847.826086956522" y="66.964285714285708"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="s9f-7x-GUa">
@@ -281,6 +296,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="header profile" width="721" height="152"/>
         <image name="logo" width="101" height="185"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

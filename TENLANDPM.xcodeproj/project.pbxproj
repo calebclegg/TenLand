@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14B53C525B0D08E8284DDB6A /* Pods_TENLANDPM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42521A3FF9FCFF144528F44F /* Pods_TENLANDPM.framework */; };
 		1C78F7E42588465F00B36B3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C78F7E32588465F00B36B3A /* AppDelegate.swift */; };
 		1C78F7E62588465F00B36B3A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C78F7E52588465F00B36B3A /* SceneDelegate.swift */; };
 		1C78F7E82588465F00B36B3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C78F7E72588465F00B36B3A /* ViewController.swift */; };
@@ -23,9 +24,8 @@
 		1C78F90725885D5F00B36B3A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C78F90625885D5F00B36B3A /* HomeViewController.swift */; };
 		1C78F90D2588D4E900B36B3A /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C78F90C2588D4E900B36B3A /* Utilities.swift */; };
 		1C78F9122588D4F800B36B3A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C78F9112588D4F800B36B3A /* Constants.swift */; };
-		23C7777E19C5FFAEEDA5CB58 /* Pods_TENLANDPM_TENLANDPMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59D5E643F0CB604C453DCF5 /* Pods_TENLANDPM_TENLANDPMUITests.framework */; };
-		5E423CE745DC5CAD6FBC34AA /* Pods_TENLANDPMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42C5A8951B22783976DCC89 /* Pods_TENLANDPMTests.framework */; };
-		5F5AC639FDD39AE34A15B104 /* Pods_TENLANDPM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C45F04A9905D1C9D248B5822 /* Pods_TENLANDPM.framework */; };
+		96D8F882AD546823583E9CF6 /* Pods_TENLANDPM_TENLANDPMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2F9035046FBFDD17E086CC1 /* Pods_TENLANDPM_TENLANDPMUITests.framework */; };
+		CE978091E1F1628F383AF0EC /* Pods_TENLANDPMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB1901690F9943EEBE13EF9 /* Pods_TENLANDPMTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,15 +68,15 @@
 		1C78F90625885D5F00B36B3A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		1C78F90C2588D4E900B36B3A /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		1C78F9112588D4F800B36B3A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		20EB0CD07A5A876D6C135B45 /* Pods-TENLANDPM-TENLANDPMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TENLANDPM-TENLANDPMUITests.debug.xcconfig"; path = "Target Support Files/Pods-TENLANDPM-TENLANDPMUITests/Pods-TENLANDPM-TENLANDPMUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		286FF29BA1EEA8193A6EE596 /* Pods-TENLANDPM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TENLANDPM.release.xcconfig"; path = "Target Support Files/Pods-TENLANDPM/Pods-TENLANDPM.release.xcconfig"; sourceTree = "<group>"; };
-		301CD42E427E81C6088A3FD1 /* Pods-TENLANDPM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TENLANDPM.debug.xcconfig"; path = "Target Support Files/Pods-TENLANDPM/Pods-TENLANDPM.debug.xcconfig"; sourceTree = "<group>"; };
-		74FADF964CE16372BAD8EC5A /* Pods-TENLANDPMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TENLANDPMTests.debug.xcconfig"; path = "Target Support Files/Pods-TENLANDPMTests/Pods-TENLANDPMTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A42C5A8951B22783976DCC89 /* Pods_TENLANDPMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TENLANDPMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A59D5E643F0CB604C453DCF5 /* Pods_TENLANDPM_TENLANDPMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TENLANDPM_TENLANDPMUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C45F04A9905D1C9D248B5822 /* Pods_TENLANDPM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TENLANDPM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9BFF8090D03BEEA18688ABB /* Pods-TENLANDPM-TENLANDPMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TENLANDPM-TENLANDPMUITests.release.xcconfig"; path = "Target Support Files/Pods-TENLANDPM-TENLANDPMUITests/Pods-TENLANDPM-TENLANDPMUITests.release.xcconfig"; sourceTree = "<group>"; };
-		F51609DAFFC40A366BC706FF /* Pods-TENLANDPMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TENLANDPMTests.release.xcconfig"; path = "Target Support Files/Pods-TENLANDPMTests/Pods-TENLANDPMTests.release.xcconfig"; sourceTree = "<group>"; };
+		2660BAE079282AB9182DBA02 /* Pods-TENLANDPM-TENLANDPMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TENLANDPM-TENLANDPMUITests.release.xcconfig"; path = "Target Support Files/Pods-TENLANDPM-TENLANDPMUITests/Pods-TENLANDPM-TENLANDPMUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3A4D99FFD8C6C8AE24E2887D /* Pods-TENLANDPMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TENLANDPMTests.debug.xcconfig"; path = "Target Support Files/Pods-TENLANDPMTests/Pods-TENLANDPMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		42521A3FF9FCFF144528F44F /* Pods_TENLANDPM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TENLANDPM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C2170E2D3656358B93147BC /* Pods-TENLANDPMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TENLANDPMTests.release.xcconfig"; path = "Target Support Files/Pods-TENLANDPMTests/Pods-TENLANDPMTests.release.xcconfig"; sourceTree = "<group>"; };
+		A8F984168DA7C2C70C2E94EE /* Pods-TENLANDPM-TENLANDPMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TENLANDPM-TENLANDPMUITests.debug.xcconfig"; path = "Target Support Files/Pods-TENLANDPM-TENLANDPMUITests/Pods-TENLANDPM-TENLANDPMUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AFB1901690F9943EEBE13EF9 /* Pods_TENLANDPMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TENLANDPMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F9035046FBFDD17E086CC1 /* Pods_TENLANDPM_TENLANDPMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TENLANDPM_TENLANDPMUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E01988A532B042C6848BAFE3 /* Pods-TENLANDPM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TENLANDPM.debug.xcconfig"; path = "Target Support Files/Pods-TENLANDPM/Pods-TENLANDPM.debug.xcconfig"; sourceTree = "<group>"; };
+		E5301F5A4A4BFEDF57F78FF0 /* Pods-TENLANDPM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TENLANDPM.release.xcconfig"; path = "Target Support Files/Pods-TENLANDPM/Pods-TENLANDPM.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F5AC639FDD39AE34A15B104 /* Pods_TENLANDPM.framework in Frameworks */,
+				14B53C525B0D08E8284DDB6A /* Pods_TENLANDPM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E423CE745DC5CAD6FBC34AA /* Pods_TENLANDPMTests.framework in Frameworks */,
+				CE978091E1F1628F383AF0EC /* Pods_TENLANDPMTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,13 +100,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23C7777E19C5FFAEEDA5CB58 /* Pods_TENLANDPM_TENLANDPMUITests.framework in Frameworks */,
+				96D8F882AD546823583E9CF6 /* Pods_TENLANDPM_TENLANDPMUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09AFA3032F2E11F439E6501A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42521A3FF9FCFF144528F44F /* Pods_TENLANDPM.framework */,
+				D2F9035046FBFDD17E086CC1 /* Pods_TENLANDPM_TENLANDPMUITests.framework */,
+				AFB1901690F9943EEBE13EF9 /* Pods_TENLANDPMTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1C78F7D72588465F00B36B3A = {
 			isa = PBXGroup;
 			children = (
@@ -115,7 +125,7 @@
 				1C78F8042588466100B36B3A /* TENLANDPMUITests */,
 				1C78F7E12588465F00B36B3A /* Products */,
 				65E9BF1F335FBC00F9140251 /* Pods */,
-				D7445B96221926FCD16D842C /* Frameworks */,
+				09AFA3032F2E11F439E6501A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -188,24 +198,14 @@
 		65E9BF1F335FBC00F9140251 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				301CD42E427E81C6088A3FD1 /* Pods-TENLANDPM.debug.xcconfig */,
-				286FF29BA1EEA8193A6EE596 /* Pods-TENLANDPM.release.xcconfig */,
-				20EB0CD07A5A876D6C135B45 /* Pods-TENLANDPM-TENLANDPMUITests.debug.xcconfig */,
-				D9BFF8090D03BEEA18688ABB /* Pods-TENLANDPM-TENLANDPMUITests.release.xcconfig */,
-				74FADF964CE16372BAD8EC5A /* Pods-TENLANDPMTests.debug.xcconfig */,
-				F51609DAFFC40A366BC706FF /* Pods-TENLANDPMTests.release.xcconfig */,
+				E01988A532B042C6848BAFE3 /* Pods-TENLANDPM.debug.xcconfig */,
+				E5301F5A4A4BFEDF57F78FF0 /* Pods-TENLANDPM.release.xcconfig */,
+				A8F984168DA7C2C70C2E94EE /* Pods-TENLANDPM-TENLANDPMUITests.debug.xcconfig */,
+				2660BAE079282AB9182DBA02 /* Pods-TENLANDPM-TENLANDPMUITests.release.xcconfig */,
+				3A4D99FFD8C6C8AE24E2887D /* Pods-TENLANDPMTests.debug.xcconfig */,
+				5C2170E2D3656358B93147BC /* Pods-TENLANDPMTests.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		D7445B96221926FCD16D842C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C45F04A9905D1C9D248B5822 /* Pods_TENLANDPM.framework */,
-				A59D5E643F0CB604C453DCF5 /* Pods_TENLANDPM_TENLANDPMUITests.framework */,
-				A42C5A8951B22783976DCC89 /* Pods_TENLANDPMTests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,11 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C78F80A2588466100B36B3A /* Build configuration list for PBXNativeTarget "TENLANDPM" */;
 			buildPhases = (
-				045B976938E2DA6E13052617 /* [CP] Check Pods Manifest.lock */,
+				45A69DEEA8FBDEEF1C90A363 /* [CP] Check Pods Manifest.lock */,
 				1C78F7DC2588465F00B36B3A /* Sources */,
 				1C78F7DD2588465F00B36B3A /* Frameworks */,
 				1C78F7DE2588465F00B36B3A /* Resources */,
-				1DE700060E94A064F5322DBE /* [CP] Embed Pods Frameworks */,
+				DB0CC21DAB84379EFB2F9B13 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,7 +234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C78F80D2588466100B36B3A /* Build configuration list for PBXNativeTarget "TENLANDPMTests" */;
 			buildPhases = (
-				B73D365D9C6D373CADC6958A /* [CP] Check Pods Manifest.lock */,
+				1E23F260E2F8282DB56C722E /* [CP] Check Pods Manifest.lock */,
 				1C78F7F22588466100B36B3A /* Sources */,
 				1C78F7F32588466100B36B3A /* Frameworks */,
 				1C78F7F42588466100B36B3A /* Resources */,
@@ -253,11 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C78F8102588466100B36B3A /* Build configuration list for PBXNativeTarget "TENLANDPMUITests" */;
 			buildPhases = (
-				F368E7031AA11BA6A92D805C /* [CP] Check Pods Manifest.lock */,
+				7AC5F665136802F3E4F65043 /* [CP] Check Pods Manifest.lock */,
 				1C78F7FD2588466100B36B3A /* Sources */,
 				1C78F7FE2588466100B36B3A /* Frameworks */,
 				1C78F7FF2588466100B36B3A /* Resources */,
-				7C8EB7F848936939DEAD243F /* [CP] Embed Pods Frameworks */,
+				03AB22395174AEECEC44DCE7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -340,46 +340,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		045B976938E2DA6E13052617 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TENLANDPM-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1DE700060E94A064F5322DBE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TENLANDPM/Pods-TENLANDPM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TENLANDPM/Pods-TENLANDPM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TENLANDPM/Pods-TENLANDPM-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7C8EB7F848936939DEAD243F /* [CP] Embed Pods Frameworks */ = {
+		03AB22395174AEECEC44DCE7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -396,7 +357,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TENLANDPM-TENLANDPMUITests/Pods-TENLANDPM-TENLANDPMUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B73D365D9C6D373CADC6958A /* [CP] Check Pods Manifest.lock */ = {
+		1E23F260E2F8282DB56C722E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -418,7 +379,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F368E7031AA11BA6A92D805C /* [CP] Check Pods Manifest.lock */ = {
+		45A69DEEA8FBDEEF1C90A363 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TENLANDPM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AC5F665136802F3E4F65043 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -438,6 +421,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB0CC21DAB84379EFB2F9B13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TENLANDPM/Pods-TENLANDPM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TENLANDPM/Pods-TENLANDPM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TENLANDPM/Pods-TENLANDPM-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -629,7 +629,7 @@
 		};
 		1C78F80B2588466100B36B3A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 301CD42E427E81C6088A3FD1 /* Pods-TENLANDPM.debug.xcconfig */;
+			baseConfigurationReference = E01988A532B042C6848BAFE3 /* Pods-TENLANDPM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -652,7 +652,7 @@
 		};
 		1C78F80C2588466100B36B3A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 286FF29BA1EEA8193A6EE596 /* Pods-TENLANDPM.release.xcconfig */;
+			baseConfigurationReference = E5301F5A4A4BFEDF57F78FF0 /* Pods-TENLANDPM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -675,7 +675,7 @@
 		};
 		1C78F80E2588466100B36B3A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74FADF964CE16372BAD8EC5A /* Pods-TENLANDPMTests.debug.xcconfig */;
+			baseConfigurationReference = 3A4D99FFD8C6C8AE24E2887D /* Pods-TENLANDPMTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -698,7 +698,7 @@
 		};
 		1C78F80F2588466100B36B3A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F51609DAFFC40A366BC706FF /* Pods-TENLANDPMTests.release.xcconfig */;
+			baseConfigurationReference = 5C2170E2D3656358B93147BC /* Pods-TENLANDPMTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -721,7 +721,7 @@
 		};
 		1C78F8112588466100B36B3A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20EB0CD07A5A876D6C135B45 /* Pods-TENLANDPM-TENLANDPMUITests.debug.xcconfig */;
+			baseConfigurationReference = A8F984168DA7C2C70C2E94EE /* Pods-TENLANDPM-TENLANDPMUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -742,7 +742,7 @@
 		};
 		1C78F8122588466100B36B3A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9BFF8090D03BEEA18688ABB /* Pods-TENLANDPM-TENLANDPMUITests.release.xcconfig */;
+			baseConfigurationReference = 2660BAE079282AB9182DBA02 /* Pods-TENLANDPM-TENLANDPMUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -80,15 +80,7 @@ class RegisterViewController: UIViewController, UITextFieldDelegate {
         return true
     }
         
-    // validate email
-    func isValidEmail(_ email: String) -> Bool {
-        let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
 
-        //,make sure the email is a valid format, containing a '@.com'
-        let emailPred = NSPredicate(format:"SELF MATCHES %@", emailRegEx)
-        return emailPred.evaluate(with: email)
-    
-    }
     
     //check all fields & validate data is correctly formatted
     //if the format is not correct, ErrorLabel is displayed
